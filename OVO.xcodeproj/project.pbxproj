@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		987ECCE51D4309D70049888A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCE41D4309D70049888A /* AppDelegate.swift */; };
+		987ECCE71D4309D70049888A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCE61D4309D70049888A /* ViewController.swift */; };
+		987ECCEA1D4309D70049888A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCE81D4309D70049888A /* Main.storyboard */; };
+		987ECCED1D4309D70049888A /* OVO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCEB1D4309D70049888A /* OVO.xcdatamodeld */; };
+		987ECCEF1D4309D70049888A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCEE1D4309D70049888A /* Assets.xcassets */; };
+		987ECCF21D4309D70049888A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCF01D4309D70049888A /* LaunchScreen.storyboard */; };
+		987ECCFD1D4309D70049888A /* OVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCFC1D4309D70049888A /* OVOTests.swift */; };
+		987ECD081D4309D70049888A /* OVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECD071D4309D70049888A /* OVOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		987ECCF91D4309D70049888A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987ECCD91D4309D70049888A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987ECCE01D4309D70049888A;
+			remoteInfo = OVO;
+		};
+		987ECD041D4309D70049888A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987ECCD91D4309D70049888A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987ECCE01D4309D70049888A;
+			remoteInfo = OVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		987ECCE11D4309D70049888A /* OVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		987ECCE41D4309D70049888A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		987ECCE61D4309D70049888A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		987ECCE91D4309D70049888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		987ECCEC1D4309D70049888A /* OVO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OVO.xcdatamodel; sourceTree = "<group>"; };
+		987ECCEE1D4309D70049888A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		987ECCF11D4309D70049888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		987ECCF31D4309D70049888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987ECCF81D4309D70049888A /* OVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987ECCFC1D4309D70049888A /* OVOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVOTests.swift; sourceTree = "<group>"; };
+		987ECCFE1D4309D70049888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987ECD031D4309D70049888A /* OVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987ECD071D4309D70049888A /* OVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVOUITests.swift; sourceTree = "<group>"; };
+		987ECD091D4309D70049888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		987ECCDE1D4309D70049888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECCF51D4309D70049888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECD001D4309D70049888A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		987ECCD81D4309D70049888A = {
+			isa = PBXGroup;
+			children = (
+				987ECCE31D4309D70049888A /* OVO */,
+				987ECCFB1D4309D70049888A /* OVOTests */,
+				987ECD061D4309D70049888A /* OVOUITests */,
+				987ECCE21D4309D70049888A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		987ECCE21D4309D70049888A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987ECCE11D4309D70049888A /* OVO.app */,
+				987ECCF81D4309D70049888A /* OVOTests.xctest */,
+				987ECD031D4309D70049888A /* OVOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987ECCE31D4309D70049888A /* OVO */ = {
+			isa = PBXGroup;
+			children = (
+				987ECCE41D4309D70049888A /* AppDelegate.swift */,
+				987ECCE61D4309D70049888A /* ViewController.swift */,
+				987ECCE81D4309D70049888A /* Main.storyboard */,
+				987ECCEE1D4309D70049888A /* Assets.xcassets */,
+				987ECCF01D4309D70049888A /* LaunchScreen.storyboard */,
+				987ECCF31D4309D70049888A /* Info.plist */,
+				987ECCEB1D4309D70049888A /* OVO.xcdatamodeld */,
+			);
+			path = OVO;
+			sourceTree = "<group>";
+		};
+		987ECCFB1D4309D70049888A /* OVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				987ECCFC1D4309D70049888A /* OVOTests.swift */,
+				987ECCFE1D4309D70049888A /* Info.plist */,
+			);
+			path = OVOTests;
+			sourceTree = "<group>";
+		};
+		987ECD061D4309D70049888A /* OVOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				987ECD071D4309D70049888A /* OVOUITests.swift */,
+				987ECD091D4309D70049888A /* Info.plist */,
+			);
+			path = OVOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		987ECCE01D4309D70049888A /* OVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987ECD0C1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVO" */;
+			buildPhases = (
+				987ECCDD1D4309D70049888A /* Sources */,
+				987ECCDE1D4309D70049888A /* Frameworks */,
+				987ECCDF1D4309D70049888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVO;
+			productName = OVO;
+			productReference = 987ECCE11D4309D70049888A /* OVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		987ECCF71D4309D70049888A /* OVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987ECD0F1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOTests" */;
+			buildPhases = (
+				987ECCF41D4309D70049888A /* Sources */,
+				987ECCF51D4309D70049888A /* Frameworks */,
+				987ECCF61D4309D70049888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				987ECCFA1D4309D70049888A /* PBXTargetDependency */,
+			);
+			name = OVOTests;
+			productName = OVOTests;
+			productReference = 987ECCF81D4309D70049888A /* OVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		987ECD021D4309D70049888A /* OVOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 987ECD121D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOUITests" */;
+			buildPhases = (
+				987ECCFF1D4309D70049888A /* Sources */,
+				987ECD001D4309D70049888A /* Frameworks */,
+				987ECD011D4309D70049888A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				987ECD051D4309D70049888A /* PBXTargetDependency */,
+			);
+			name = OVOUITests;
+			productName = OVOUITests;
+			productReference = 987ECD031D4309D70049888A /* OVOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		987ECCD91D4309D70049888A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Janjua Ltd";
+				TargetAttributes = {
+					987ECCE01D4309D70049888A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					987ECCF71D4309D70049888A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 987ECCE01D4309D70049888A;
+					};
+					987ECD021D4309D70049888A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 987ECCE01D4309D70049888A;
+					};
+				};
+			};
+			buildConfigurationList = 987ECCDC1D4309D70049888A /* Build configuration list for PBXProject "OVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 987ECCD81D4309D70049888A;
+			productRefGroup = 987ECCE21D4309D70049888A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987ECCE01D4309D70049888A /* OVO */,
+				987ECCF71D4309D70049888A /* OVOTests */,
+				987ECD021D4309D70049888A /* OVOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		987ECCDF1D4309D70049888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987ECCF21D4309D70049888A /* LaunchScreen.storyboard in Resources */,
+				987ECCEF1D4309D70049888A /* Assets.xcassets in Resources */,
+				987ECCEA1D4309D70049888A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECCF61D4309D70049888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECD011D4309D70049888A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		987ECCDD1D4309D70049888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987ECCE71D4309D70049888A /* ViewController.swift in Sources */,
+				987ECCED1D4309D70049888A /* OVO.xcdatamodeld in Sources */,
+				987ECCE51D4309D70049888A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECCF41D4309D70049888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987ECCFD1D4309D70049888A /* OVOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987ECCFF1D4309D70049888A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987ECD081D4309D70049888A /* OVOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		987ECCFA1D4309D70049888A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987ECCE01D4309D70049888A /* OVO */;
+			targetProxy = 987ECCF91D4309D70049888A /* PBXContainerItemProxy */;
+		};
+		987ECD051D4309D70049888A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 987ECCE01D4309D70049888A /* OVO */;
+			targetProxy = 987ECD041D4309D70049888A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		987ECCE81D4309D70049888A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987ECCE91D4309D70049888A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		987ECCF01D4309D70049888A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				987ECCF11D4309D70049888A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		987ECD0A1D4309D70049888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		987ECD0B1D4309D70049888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		987ECD0D1D4309D70049888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		987ECD0E1D4309D70049888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		987ECD101D4309D70049888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVO.app/OVO";
+			};
+			name = Debug;
+		};
+		987ECD111D4309D70049888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVO.app/OVO";
+			};
+			name = Release;
+		};
+		987ECD131D4309D70049888A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OVO;
+			};
+			name = Debug;
+		};
+		987ECD141D4309D70049888A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.janjua.OVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OVO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		987ECCDC1D4309D70049888A /* Build configuration list for PBXProject "OVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987ECD0A1D4309D70049888A /* Debug */,
+				987ECD0B1D4309D70049888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		987ECD0C1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987ECD0D1D4309D70049888A /* Debug */,
+				987ECD0E1D4309D70049888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		987ECD0F1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987ECD101D4309D70049888A /* Debug */,
+				987ECD111D4309D70049888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		987ECD121D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987ECD131D4309D70049888A /* Debug */,
+				987ECD141D4309D70049888A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		987ECCEB1D4309D70049888A /* OVO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				987ECCEC1D4309D70049888A /* OVO.xcdatamodel */,
+			);
+			currentVersion = 987ECCEC1D4309D70049888A /* OVO.xcdatamodel */;
+			path = OVO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 987ECCD91D4309D70049888A /* Project object */;
+}
