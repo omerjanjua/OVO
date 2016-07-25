@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8662F1322C79EFBE8E1153 /* Pods_OVOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F2C66D3DE52FC451B4AE81 /* Pods_OVOTests.framework */; };
 		987ECCE51D4309D70049888A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCE41D4309D70049888A /* AppDelegate.swift */; };
-		987ECCE71D4309D70049888A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCE61D4309D70049888A /* ViewController.swift */; };
 		987ECCEA1D4309D70049888A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCE81D4309D70049888A /* Main.storyboard */; };
 		987ECCED1D4309D70049888A /* OVO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCEB1D4309D70049888A /* OVO.xcdatamodeld */; };
 		987ECCEF1D4309D70049888A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCEE1D4309D70049888A /* Assets.xcassets */; };
 		987ECCF21D4309D70049888A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987ECCF01D4309D70049888A /* LaunchScreen.storyboard */; };
 		987ECCFD1D4309D70049888A /* OVOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECCFC1D4309D70049888A /* OVOTests.swift */; };
 		987ECD081D4309D70049888A /* OVOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECD071D4309D70049888A /* OVOUITests.swift */; };
+		987ECD181D4312C70049888A /* ItemsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECD171D4312C70049888A /* ItemsDataSource.swift */; };
+		987ECD1B1D4312E60049888A /* Items+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECD191D4312E60049888A /* Items+CoreDataProperties.swift */; };
+		987ECD1C1D4312E60049888A /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987ECD1A1D4312E60049888A /* Items.swift */; };
+		98B911091D432DA70065E794 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B911081D432DA70065E794 /* ItemsTableViewController.swift */; };
+		98F783281D4599BE007F330F /* ItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F783271D4599BE007F330F /* ItemsTableViewCell.swift */; };
+		98F7832B1D45A814007F330F /* Items.json in Resources */ = {isa = PBXBuildFile; fileRef = 98F7832A1D45A814007F330F /* Items.json */; };
+		98F7832C1D45AA9C007F330F /* Items.json in Resources */ = {isa = PBXBuildFile; fileRef = 98F7832A1D45A814007F330F /* Items.json */; };
+		A9443153C9F585D0DCF0D291 /* Pods_OVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837BA212867DE7B250A37A02 /* Pods_OVO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB152D2D2A912269BCA9AF2 /* Pods-OVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-OVO/Pods-OVO.release.xcconfig"; sourceTree = "<group>"; };
+		39F2C66D3DE52FC451B4AE81 /* Pods_OVOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OVOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5A5CA15E5501F071DC688E /* Pods-OVOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OVOTests/Pods-OVOTests.release.xcconfig"; sourceTree = "<group>"; };
+		837BA212867DE7B250A37A02 /* Pods_OVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		987ECCE11D4309D70049888A /* OVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987ECCE41D4309D70049888A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		987ECCE61D4309D70049888A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		987ECCE91D4309D70049888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		987ECCEC1D4309D70049888A /* OVO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OVO.xcdatamodel; sourceTree = "<group>"; };
 		987ECCEE1D4309D70049888A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,14 @@
 		987ECD031D4309D70049888A /* OVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987ECD071D4309D70049888A /* OVOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVOUITests.swift; sourceTree = "<group>"; };
 		987ECD091D4309D70049888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		987ECD171D4312C70049888A /* ItemsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDataSource.swift; sourceTree = "<group>"; };
+		987ECD191D4312E60049888A /* Items+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Items+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		987ECD1A1D4312E60049888A /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		98B911081D432DA70065E794 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		98CDFE350A12A9955C792344 /* Pods-OVOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OVOTests/Pods-OVOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98F783271D4599BE007F330F /* ItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewCell.swift; sourceTree = "<group>"; };
+		98F7832A1D45A814007F330F /* Items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Items.json; sourceTree = "<group>"; };
+		A5D01696734B2E1BC0EDDE88 /* Pods-OVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OVO/Pods-OVO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9443153C9F585D0DCF0D291 /* Pods_OVO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8662F1322C79EFBE8E1153 /* Pods_OVOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B66FAF541BD5A88D3721952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D01696734B2E1BC0EDDE88 /* Pods-OVO.debug.xcconfig */,
+				0AB152D2D2A912269BCA9AF2 /* Pods-OVO.release.xcconfig */,
+				98CDFE350A12A9955C792344 /* Pods-OVOTests.debug.xcconfig */,
+				6F5A5CA15E5501F071DC688E /* Pods-OVOTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4438B99CE1BECD473DF444AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837BA212867DE7B250A37A02 /* Pods_OVO.framework */,
+				39F2C66D3DE52FC451B4AE81 /* Pods_OVOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		987ECCD81D4309D70049888A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				987ECCFB1D4309D70049888A /* OVOTests */,
 				987ECD061D4309D70049888A /* OVOUITests */,
 				987ECCE21D4309D70049888A /* Products */,
+				3B66FAF541BD5A88D3721952 /* Pods */,
+				4438B99CE1BECD473DF444AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				987ECCE41D4309D70049888A /* AppDelegate.swift */,
-				987ECCE61D4309D70049888A /* ViewController.swift */,
+				98B911081D432DA70065E794 /* ItemsTableViewController.swift */,
+				98F783271D4599BE007F330F /* ItemsTableViewCell.swift */,
 				987ECCE81D4309D70049888A /* Main.storyboard */,
+				987ECD161D430E8E0049888A /* Model */,
+				987ECD151D430E8E0049888A /* DataSource */,
 				987ECCEE1D4309D70049888A /* Assets.xcassets */,
 				987ECCF01D4309D70049888A /* LaunchScreen.storyboard */,
 				987ECCF31D4309D70049888A /* Info.plist */,
@@ -113,6 +159,7 @@
 		987ECCFB1D4309D70049888A /* OVOTests */ = {
 			isa = PBXGroup;
 			children = (
+				98F783291D45A814007F330F /* SupportingFiles */,
 				987ECCFC1D4309D70049888A /* OVOTests.swift */,
 				987ECCFE1D4309D70049888A /* Info.plist */,
 			);
@@ -128,6 +175,31 @@
 			path = OVOUITests;
 			sourceTree = "<group>";
 		};
+		987ECD151D430E8E0049888A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				987ECD171D4312C70049888A /* ItemsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		987ECD161D430E8E0049888A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				987ECD191D4312E60049888A /* Items+CoreDataProperties.swift */,
+				987ECD1A1D4312E60049888A /* Items.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98F783291D45A814007F330F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				98F7832A1D45A814007F330F /* Items.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 987ECD0C1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVO" */;
 			buildPhases = (
+				05CE6473C08B26D0EA4C25DF /* [CP] Check Pods Manifest.lock */,
 				987ECCDD1D4309D70049888A /* Sources */,
 				987ECCDE1D4309D70049888A /* Frameworks */,
 				987ECCDF1D4309D70049888A /* Resources */,
+				45F29C60BE235BCDD5BFC718 /* [CP] Embed Pods Frameworks */,
+				5010CC3C115AB590B331B832 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 987ECD0F1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOTests" */;
 			buildPhases = (
+				79CC4D57B936FCDA0673C855 /* [CP] Check Pods Manifest.lock */,
 				987ECCF41D4309D70049888A /* Sources */,
 				987ECCF51D4309D70049888A /* Frameworks */,
 				987ECCF61D4309D70049888A /* Resources */,
+				E44FA5171EE311830C183C1A /* [CP] Embed Pods Frameworks */,
+				56811AF56A90B1613A9EA017 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F7832C1D45AA9C007F330F /* Items.json in Resources */,
 				987ECCF21D4309D70049888A /* LaunchScreen.storyboard in Resources */,
 				987ECCEF1D4309D70049888A /* Assets.xcassets in Resources */,
 				987ECCEA1D4309D70049888A /* Main.storyboard in Resources */,
@@ -242,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F7832B1D45A814007F330F /* Items.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +334,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05CE6473C08B26D0EA4C25DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45F29C60BE235BCDD5BFC718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVO/Pods-OVO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5010CC3C115AB590B331B832 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVO/Pods-OVO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56811AF56A90B1613A9EA017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVOTests/Pods-OVOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CC4D57B936FCDA0673C855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E44FA5171EE311830C183C1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVOTests/Pods-OVOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		987ECCDD1D4309D70049888A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987ECCE71D4309D70049888A /* ViewController.swift in Sources */,
+				98F783281D4599BE007F330F /* ItemsTableViewCell.swift in Sources */,
+				987ECD181D4312C70049888A /* ItemsDataSource.swift in Sources */,
+				987ECD1B1D4312E60049888A /* Items+CoreDataProperties.swift in Sources */,
 				987ECCED1D4309D70049888A /* OVO.xcdatamodeld in Sources */,
+				987ECD1C1D4312E60049888A /* Items.swift in Sources */,
 				987ECCE51D4309D70049888A /* AppDelegate.swift in Sources */,
+				98B911091D432DA70065E794 /* ItemsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +580,7 @@
 		};
 		987ECD0D1D4309D70049888A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D01696734B2E1BC0EDDE88 /* Pods-OVO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OVO/Info.plist;
@@ -414,6 +592,7 @@
 		};
 		987ECD0E1D4309D70049888A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB152D2D2A912269BCA9AF2 /* Pods-OVO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OVO/Info.plist;
@@ -425,6 +604,7 @@
 		};
 		987ECD101D4309D70049888A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CDFE350A12A9955C792344 /* Pods-OVOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OVOTests/Info.plist;
@@ -437,6 +617,7 @@
 		};
 		987ECD111D4309D70049888A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5A5CA15E5501F071DC688E /* Pods-OVOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OVOTests/Info.plist;
@@ -488,6 +669,7 @@
 				987ECD0E1D4309D70049888A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987ECD0F1D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +678,7 @@
 				987ECD111D4309D70049888A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		987ECD121D4309D70049888A /* Build configuration list for PBXNativeTarget "OVOUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +687,7 @@
 				987ECD141D4309D70049888A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

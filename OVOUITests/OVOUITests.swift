@@ -9,7 +9,9 @@
 import XCTest
 
 class OVOUITests: XCTestCase {
-        
+    
+    let app = XCUIApplication()
+    
     override func setUp() {
         super.setUp()
         
@@ -28,9 +30,17 @@ class OVOUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testVerifyControllerTitle() {
+        XCTAssert(app.navigationBars["Uploads from everyone"].exists)
+    }
+    
+    func testShowElements() {
+        
+        XCTAssertEqual(app.tables.count, 1)
+        
+        let table = app.tables.elementBoundByIndex(0)
+        let expectedNumberOfElements: UInt = 20
+        XCTAssertEqual(table.cells.count, expectedNumberOfElements)
     }
     
 }
